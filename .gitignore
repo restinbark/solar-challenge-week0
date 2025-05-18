@@ -1,18 +1,12 @@
-# Python
-__pycache__/
-*.py[cod]
-*.ipynb_checkpoints
-.venv/
-venv/
-.env
-
-# VS Code
+CLEAR# IDE specific
+.idea/
 .vscode/
 
-# Jupyter
-.ipynb_checkpoints/
+# Virtual environment
+.venv/
+venv/
+pyvenv.cfg
 
-# Data
-data/
-*.csv
-*.zip
+# Data files (if large)
+data/*.csv
+!data/README.md  # Exception to keep README
